@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#clock {
+    position: relative;
+    width: 60vw;
+    height: 40vw;
+    /* border: 2px solid saddlebrown; */
+    background-color: aqua;
+    margin: auto;
+    background: url("clock-without-hands.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#hours,
+#minutes,
+#seconds {
+    transform-origin: bottom;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hours {
+    width: 1%;
+    height:20%;
+    left: 36.7%;
+    top: 31.5%;
+    /* display: none; */
+}
+
+#minutes {
+    width: 0.6%;
+    height:25%;
+    left: 36.5%;
+    top: 27%;
+    /* display: none; */
+}
+
+#seconds {
+    width: 0.5%;
+    height:30%;
+    left: 37%;
+    top: 22%;
+}
+#la{
+    position:absolute;
+    top: 49.6%;
+    left: 35.5%;
+    width: 3%;
+    height: 4%;
+    border-radius: 50%;
+    background-color: black;
+}
